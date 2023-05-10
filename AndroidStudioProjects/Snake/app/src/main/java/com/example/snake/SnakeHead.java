@@ -19,4 +19,7 @@ public class SnakeHead {
     public int getHead(){
         return Head;
     }
+    public int getTail(){
+        return Tail;
+    }
 }
