@@ -19,11 +19,12 @@ public class SnakeHead {
     public int getHead(){
         return Head;
     }
-    public int getTail(){
-        return Tail;
+    public int getHead4(){
+        return Head4;
     }
-    public int getHeadandTail(){
-        return getHeadandTail;
+    public int getHead4(){
+        return Head4;
     }
+
 
 }
