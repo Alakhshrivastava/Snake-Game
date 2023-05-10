@@ -22,7 +22,8 @@ public class SnakeHead {
     public int getTail(){
         return Tail;
     }
-    public int getTail2(){
-        return Tail2;
+    public int getHeadandTail(){
+        return getHeadandTail;
     }
+
 }
