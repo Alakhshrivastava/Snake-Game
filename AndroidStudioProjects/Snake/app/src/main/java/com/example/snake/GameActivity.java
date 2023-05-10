@@ -96,7 +96,7 @@ private int bodyTexture,map,headTexture;
 
         graphicsSnake.DrawMap(); //draw map
         //=====>Timer
-        Counter = new CountDown(40000,Difficult);
+
         //Timer that dictate the time of application
         StarterCounter = new Count(3015,900);
         StarterCounter.start();
@@ -117,6 +117,7 @@ private int bodyTexture,map,headTexture;
 
 
                 lastMov = body.getLastMovement();
+                firstMov = body.getLastMovement();
 
                 if (Xstart + 100 < Xstop) {
 
