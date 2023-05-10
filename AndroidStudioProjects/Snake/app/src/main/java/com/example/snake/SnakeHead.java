@@ -7,6 +7,7 @@ public class SnakeHead {
     private int Y;
     public void setX(int x){X=x;}
     public void setY(int y){Y=y;}
+    public void setY(int z){Z=z;}
     public int getX(){
         return X;
     }
@@ -24,6 +25,9 @@ public class SnakeHead {
     }
     public int getHead4(){
         return Head4;
+    }
+    public int getHead5(){
+        return Head5;
     }
 
 
