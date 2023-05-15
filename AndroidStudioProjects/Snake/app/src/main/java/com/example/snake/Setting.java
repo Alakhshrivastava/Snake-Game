@@ -40,12 +40,13 @@ public class Setting extends AppCompatActivity {
         Intent intent = new Intent(this,MapSetting.class);
         startActivity(intent);
     }
-    public void Musica_Mode(View view){
+    public void Musica1_Mode(View view){
         editor = sharedPref.edit();
-        if(swtMusic.isChecked()){
-            editor.putBoolean("Music",true);
-        }else{
+        if(!swtMusic.isChecked()){
             editor.putBoolean("Music",false);
+
+        }else{
+            editor.putBoolean("Music",true);
         }
         editor.apply();
     }

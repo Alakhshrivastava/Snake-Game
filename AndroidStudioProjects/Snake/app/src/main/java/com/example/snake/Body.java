@@ -10,6 +10,8 @@ private GameActivity game;
 private int lastMov;
 private int block[][] = new int[48][27];
 private int lastMovement = 1;
+    private int FirstMovement = 10;
+
 private SnakeHead Head;
 private Random rand;
 
@@ -111,7 +113,7 @@ public void generateApple(){
 public void generateNoAplle(){
     rand = new Random();
     int rdmRow, rdmClm;
-    for(int i =0;i<=5;i++){ //random number of mushrooms between 0 and 5
+    for(int i =0;i<6;i++){ //random number of mushrooms between 0 and 5
         rdmRow = rand.nextInt(47);
         rdmClm = rand.nextInt(26);
         if (block[rdmRow][rdmClm] == 0 ) {
@@ -149,6 +151,8 @@ public void moveGame() {
 
     int row;
     int clm;
+    int zindex;
+    med= Head.getZ();
     row = Head.getX();
     clm = Head.getY();
 
