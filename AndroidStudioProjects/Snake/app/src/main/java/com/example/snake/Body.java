@@ -111,7 +111,7 @@ public void generateApple(){
 public void generateNoAplle(){
     rand = new Random();
     int rdmRow, rdmClm;
-    for(int i =0;i<=5;i++){ //random number of mushrooms between 0 and 5
+    for(int i =0;i<6;i++){ //random number of mushrooms between 0 and 5
         rdmRow = rand.nextInt(47);
         rdmClm = rand.nextInt(26);
         if (block[rdmRow][rdmClm] == 0 ) {
