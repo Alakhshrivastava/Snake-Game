@@ -149,6 +149,8 @@ public void moveGame() {
 
     int row;
     int clm;
+    int zindex;
+    med= Head.getZ();
     row = Head.getX();
     clm = Head.getY();
 
