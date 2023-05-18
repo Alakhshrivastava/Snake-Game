@@ -11,6 +11,7 @@ private int lastMov;
 private int block[][] = new int[48][27];
 private int lastMovement = 1;
     private int FirstMovement = 10;
+
 private SnakeHead Head;
 private Random rand;
 
