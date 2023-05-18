@@ -20,15 +20,6 @@ public class SnakeHead {
     public int getHead(){
         return Head;
     }
-    public int getHead4(){
-        return Head4;
-    }
-    public int getHead4(){
-        return Head4;
-    }
-    public int getHead5(){
-        return Head5;
-    }
 
 
 }
